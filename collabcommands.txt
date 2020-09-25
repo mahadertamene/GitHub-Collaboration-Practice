@@ -1,0 +1,6 @@
+cd /Users/mahadertamene/Box\ Sync/Berkeley\ Epi\ PhD/Fall\ 2020\ Courses/SOCIOL\ 273L-Computational\ Social\ Science\ Part\ A/Group\ Projects/git clone https://github.com/mahadertamene/GitHub-Collaboration-Practice.gitcd GitHub-Collaboration-Practice/touch groupmembers.txtecho Mahader >> groupmembers.txtecho Aniket >> groupmembers.txtgit checkout -b mahader_branchvim groupmembers.txt:wqtouch collabcommands.txt
+git add groupmembers.txt
+git commmit -m "add groupmembers.txt to repo"
+git add collabcommands.txt
+git commit -m "add collabcommands.txt to repo"
+git push
